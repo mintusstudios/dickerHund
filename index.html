@@ -33,6 +33,9 @@
         </div>
         <p>Konzerte: 22.01.2024 / Klein aber Schick / Schick in Mainz</p>
 
+        <!-- New button added -->
+        <button onclick="playAudio()">Play Paradise</button>
+
         <a class="btn" href="https://www.facebook.com/dickerhundband/"
           ><i class="fa fa-facebook"></i>
         </a>
@@ -59,5 +62,13 @@
     </div>
 
     <div class="footer">Copyright 2020 | nhf.blues@gmail.com</div>
+
+    <!-- JavaScript to play audio -->
+    <script>
+      function playAudio() {
+        var audio = new Audio('paradise.mp3');
+        audio.play();
+      }
+    </script>
   </body>
 </html>
